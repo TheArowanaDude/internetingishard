@@ -45,6 +45,25 @@
 .feature-3 {
   background-color: #C8C6FA;
 }
+
+.illustration img {
+  width: 100%;
+  display: block;
+}
+.header {
+  height: auto;
+  justify-content: inherit;
+  align-items: inherit;
+}
+
+.photo img {
+  width: 100%;
+  display: block;
+}
+
+
+
+
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
   body {
@@ -65,7 +84,7 @@
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
   .page {
-    width: 960px;
+    width: 1920px;
     margin: 0 auto;
   }
   .feature-1,
